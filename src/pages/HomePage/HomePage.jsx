@@ -3,6 +3,9 @@ import { OnboardingContext } from '../OnboardingPage/OnboardingContext/Onboardin
 import './HomePage.scss';
 import anime from 'animejs/lib/anime.es.js';
 import MenuNav from '../../core/MenuNav/MenuNav';
+import ProjectsPage from '../ProjectsPage/ProjectsPage';
+import AboutPage from '../AboutPage/AboutPage';
+import ContactPage from '../ContactPage/ContactPage';
 
 export default function HomePage() {
 
@@ -32,7 +35,7 @@ export default function HomePage() {
       return 1000 + 50 * i;
     }
   });
-      }, 4500);
+      }, 6500);
 
       
     
@@ -56,6 +59,17 @@ export default function HomePage() {
         </div>
         <p className="arrow">⇃<span className="vertical-txt">Scroll</span></p>
         <div class="square-2"></div>
+        <div class="square-2"></div>
+        <div class="square-2"></div>
+        <div class="square-2"></div>
+        <div class="square-2"></div>
+        <div class="square-2"></div>
+        <div class="square-2"></div>
+        <div class="square-2"></div>
+        <div class="square-2"></div>
+        <ProjectsPage></ProjectsPage>
+        <AboutPage></AboutPage>
+        <ContactPage></ContactPage>
         </div>
     )
 }

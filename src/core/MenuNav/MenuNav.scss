@@ -11,7 +11,7 @@
 
 
 .toggle-btn {
-    position: fixed;
+    position: absolute;
     margin: 1.4em;
     padding: 1em;
     width: 40px;
@@ -38,8 +38,8 @@ span.two {
 
 .menu {
     z-index: 0;
-    position: absolute;
-    background: #101010;
+    position: fixed;
+    background: #161616;
     height: 100vh;
     width: 100%;
     top: -100%;
