@@ -7,6 +7,8 @@ import ProjectsPage from '../ProjectsPage/ProjectsPage';
 import AboutPage from '../AboutPage/AboutPage';
 import ContactPage from '../ContactPage/ContactPage';
 
+
+
 export default function HomePage() {
 
     const {isOnboard, setOnboard} = useContext(OnboardingContext);
@@ -35,7 +37,7 @@ export default function HomePage() {
       return 1000 + 50 * i;
     }
   });
-      }, 6500);
+      }, 0);
 
       
     
@@ -59,15 +61,9 @@ export default function HomePage() {
         </div>
         <p className="arrow">⇃<span className="vertical-txt">Scroll</span></p>
         <div class="square-2"></div>
-        <div class="square-2"></div>
-        <div class="square-2"></div>
-        <div class="square-2"></div>
-        <div class="square-2"></div>
-        <div class="square-2"></div>
-        <div class="square-2"></div>
-        <div class="square-2"></div>
-        <div class="square-2"></div>
+        
         <ProjectsPage></ProjectsPage>
+        
         <AboutPage></AboutPage>
         <ContactPage></ContactPage>
         </div>

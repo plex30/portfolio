@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+.p-projects{
+    position: relative;
+    top: -43rem;
+
+    &__article{
+        position: relative;
+        
+    }
+
+    &__title{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 3.5rem;
+        margin-left: 13.7%; 
+        color: white;
+        margin-top: -20rem;
+        
+    }
+
+    &__title-p{
+        color: black;
+        text-shadow: none;
+        font-size: 6rem;
+    }
+
+    &__nameapp{
+        font-family: 'Orbitron', sans-serif;
+        margin-top: -0.2rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    &__descapp{
+        margin-top: -1.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+
+    &__img{
+        margin-top: 4rem;
+        width: 70%;
+        border: 5px solid black;
+        border-radius: 10px;
+        margin-left: 3.4rem;
+
+    }
+
+    &__logo{
+        display: flex;
+        justify-content: center;
+        margin-top: -0.5rem;
+    }
+
+    &__logo-img{
+        width: 47px;
+        height: 47px;
+        margin-left: 0.4rem;
+    }
+}
+
+.square{
+    height: 2050px;
+    width: 450px;
+    position: relative;
+    z-index: -1;
+    background-color: #E54652;
+    margin-left: 8rem;
+    margin-top: -124rem;
+    overflow-x: hidden; 
+}
+
+.square-title{
+    height: 170px;
+    width: 250px;
+    position: relative;
+    z-index: -1;
+    background-color: #E54652;
+    margin-left: 8rem;
+    margin-top: -10rem;
+    overflow-x: hidden; 
+  
+}
+

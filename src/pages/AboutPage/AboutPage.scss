@@ -1,0 +1,47 @@
+.p-about{
+
+
+    &__title{
+        position: relative;
+        z-index: 1;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 3.5rem;
+        margin-left: 13.7%; 
+        color: white;
+        margin-top: -34rem;
+
+    }
+
+    &__title-p{
+        color: black;
+        text-shadow: none;
+        font-size: 6rem;
+    }
+
+    &__imgme{
+        width: 200px;
+        height: 200px;
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+}
+
+
+.square-about{
+    margin-top: -34rem;
+    width: 70%;
+    background-color: #FFBC42;
+    height: 1150px;
+    position: relative;
+    z-index: -1;
+}
+
+.square-about-title{
+    height: 170px;
+    width: 250px;
+    
+    background-color: #E54652;
+    margin-left: 8rem;
+    margin-top: -10rem;
+    overflow-x: hidden; 
+}
