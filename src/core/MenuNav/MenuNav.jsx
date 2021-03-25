@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './MenuNav.scss';
 import { TimelineMax, Expo, gsap, Power3 } from 'gsap';
+import { CSSPlugin } from 'gsap/CSSPlugin'; 
 import $ from "jquery";
 
 export default function MenuNav() {
@@ -11,7 +12,7 @@ export default function MenuNav() {
 
 
     useEffect(() => {
-        gsap . registerPlugin ( CSSPlugin )
+        gsap.registerPlugin(CSSPlugin)
         var t1 = new TimelineMax({ paused: true });
 
         t1.to(".one", 0.8, {
