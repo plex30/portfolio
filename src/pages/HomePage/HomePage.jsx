@@ -37,7 +37,7 @@ export default function HomePage() {
       return 1000 + 50 * i;
     }
   });
-      }, 0);
+      }, 4000);
 
       
     
