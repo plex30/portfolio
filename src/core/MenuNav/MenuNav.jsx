@@ -30,10 +30,10 @@ export default function MenuNav() {
         t1.to(".menu", 2, {
             top: "0%",
             ease: Expo.easeInOut,
-            delay: -2
+            delay: -1
         });
 
-        t1.staggerFrom(".menu ul li", 2, { x: -200, opacity: 0, ease: Expo.easeOut }, 0.3);
+        t1.staggerFrom(".menu ul li", 2, { x: -300, opacity: 0, ease: Expo.easeOut }, 0.3);
 
         t1.reverse();
         $(document).on("click", ".toggle-btn", function () {
