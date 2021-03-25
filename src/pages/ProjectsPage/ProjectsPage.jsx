@@ -6,12 +6,15 @@ import lucky from './../../assets/img/lucky.jpg';
 import shop from './../../assets/img/shop.jpg';
 import got from './../../assets/img/got.jpg';
 import play from './../../assets/img/play.jpg';
+import tokio from './../../assets/img/tokio.jpg';
 import angular from './../../assets/img/angular.png';
 import react from './../../assets/img/react.png';
 import html5 from './../../assets/img/html5.png';
 import vanilla from './../../assets/img/vanillajs.png';
 import css from './../../assets/img/css3.png';
 import sass from './../../assets/img/sass.png';
+import laravel from './../../assets/img/laravel.png';
+import php from './../../assets/img/php.png';
 
 
 export default function ProjectsPage() {
@@ -77,6 +80,20 @@ export default function ProjectsPage() {
                         <img className="p-projects__logo-img" src={html5} alt="" />
                         <img className="p-projects__logo-img" src={angular} alt="" />
                         <img className="p-projects__logo-img" src={sass} alt="" />
+                    </div>
+                </article>
+
+                <article className="p-projects__article">
+                    <img src={tokio} alt="" className="p-projects__img" data-aos="fade-right" />
+                    <h3 className="p-projects__nameapp" data-aos="fade-up">Tokio Hotel</h3>
+                    <h5 className="p-projects__descapp" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1500">Hotel Booking App</h5>
+                    <div className="p-projects__logo">
+                        <img className="p-projects__logo-img" src={laravel} alt="" />
+                        <img className="p-projects__logo-img" src={html5} alt="" />
+                        <img className="p-projects__logo-img" src={php} alt="" />
+                        <img className="p-projects__logo-img" src={css} alt="" />
                     </div>
                 </article>
 

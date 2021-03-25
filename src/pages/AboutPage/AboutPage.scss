@@ -8,7 +8,7 @@
         z-index: 1;
         font-family: 'Orbitron', sans-serif;
         font-size: 3.5rem;
-        margin-left: 13.7%; 
+        margin-left: 11%; 
         color: white;
         margin-top: -34rem;
 
@@ -23,7 +23,22 @@
     &__imgme{
         width: 200px;
         height: 200px;
-        margin-left: 6rem;
+        margin-left: -2rem;
+        margin-top: 3rem;
+        border-radius: 8px;
+       
+    }
+
+    &__desc{
+        position: relative;
+        z-index: -1;
+        border: 5px solid #E54652;
+        border-radius: 4px;
+        background-color: white;
+        margin: -41rem 1rem 0 1rem;
+    }
+
+    &__desc-p{
         margin-top: 3rem;
     }
 }
@@ -39,11 +54,11 @@
 }
 
 .square-about-title{
-    height: 170px;
-    width: 250px;
+    height: 165px;
+    width: 255px;
     
     background-color: #E54652;
-    margin-left: 8rem;
+    margin-left: 7.5rem;
     margin-top: -10rem;
     overflow-x: hidden; 
 }
